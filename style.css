@@ -1,0 +1,161 @@
+p {
+    margin-bottom: 0;
+}
+
+#font-1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 47px;
+    margin-top: 10px;
+}
+@font-face{
+    src: url(Fonts/Luna.ttf);
+    font-family: luna;
+}
+
+#font-2{
+    font-family: luna;
+    font-size: 28px;
+    margin-top: 8px;
+}
+
+@font-face{
+    src: url(Fonts/Sketch\ Serif.ttf);
+    font-family: sketch;
+}
+
+#font-3{
+    font-family: sketch;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+@font-face{
+    src: url(Fonts/Fishfingers.ttf);
+    font-family: fish;
+}
+
+#font-4{
+    font-family: fish;
+    font-size: 69px;
+    margin-top: -23px;
+}
+
+@font-face{
+    src: url(Fonts/Sophia.ttf);
+    font-family: sophia;
+}
+
+#font-5{
+    font-family: sophia;
+    font-size: 47px;
+    margin-top: -16px;
+}
+
+@font-face{
+    src: url(Fonts/Betty\ Regular.ttf);
+    font-family: betty;
+}
+
+#font-6{
+    font-family: betty;
+    font-size: 52px;
+    margin-top:-13px;
+}
+
+@font-face{
+    src: url(Fonts/Champagne\ &\ Limousines.ttf);
+    font-family: champagne;
+}
+
+#font-7{
+    font-family: champagne;
+    font-size:45px;
+    margin-top:-16px;
+}
+
+@font-face{
+    src: url(Fonts/fledgling-sb.ttf);
+    font-family: fledgling;
+}
+
+#font-8{
+    font-family: fledgling;
+    font-size:82px;    
+    margin-top: -29px;   
+}
+
+@font-face{
+    src: url(Fonts/Lost\ in\ Wild.ttf);
+    font-family: lost;
+}
+
+#font-9{
+    font-family: lost;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+@font-face{
+    src: url(Fonts/bromello-Regular.ttf);
+    font-family: bromello;
+}
+
+#font-10{
+    font-family: bromello;
+    font-size: 39px;
+    margin-top:10px;
+}
+
+@font-face{
+    src: url(Fonts/SP-Marker\ Font.otf);
+    font-family: marker;
+}
+
+#font-11{
+    font-family: marker;
+    font-size: 31px;
+}
+
+@font-face{
+    src: url(Fonts/NellaSueDEMO.ttf);
+    font-family: nella;
+}
+
+#font-12{
+    font-family: nella;
+    font-size: 34px;
+    margin-top: 5px;
+}
+
+@font-face{
+    src: url(Fonts/bellak\ dont\ blink.ttf);
+    font-family: bellak;
+}
+
+#font-13{
+    font-family: bellak;
+    font-size:44px;
+    margin-top: -12px;
+}
+
+@font-face{
+    src: url(Fonts/Eufoniem\ One.ttf);
+    font-family: Eufoniem;
+}
+
+#font-14{
+    font-family: Eufoniem;
+    font-size:58px;
+    margin-top: -16px;
+}
+
+@font-face{
+    src: url(Fonts/appleberry.ttf);
+    font-family: appleberry;
+}
+
+#font-15{
+    font-family: appleberry;
+    font-size:48px;
+    margin-top: -24px;
+}
