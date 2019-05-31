@@ -2,6 +2,29 @@ p {
     margin-bottom: 0;
 }
 
+img{
+    width: 252px;
+    margin-bottom: -12px;
+}
+
+.main-div{
+    padding-top:20px;
+}
+
+#name{
+    margin-top:10px;
+}
+
+#settings-div{
+    height:602px;
+    border: 2px solid #B9DBDD;
+    border-radius: 3px;
+}
+
+.font-display{
+    display:none;
+}
+
 #font-1{
     font-family: 'Shadows Into Light', cursive;
     font-size: 47px;
@@ -92,7 +115,7 @@ p {
 #font-9{
     font-family: lost;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: -7px;
 }
 
 @font-face{

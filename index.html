@@ -5,13 +5,13 @@
     <title>Font Generator</title>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <!-- Shadows into Light Font-->
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
@@ -20,25 +20,95 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <div class='col-md-12' style='height:20px;'>
-        <input type="text" id="name" placeholder="Name..." onchange="updateName()"/>
-    </div>
-    <div class='col-md-4'>
-        <p id="font-1">FONT NUMBER 1</p>
-        <p id="font-2">FONT NUMBER 2</p>
-        <p id="font-3">FONT NUMBER 3</p>
-        <p id="font-4">FONT NUMBER 4</p>
-        <p id="font-5">FONT NUMBER 5</p>
-        <p id="font-6">FONT NUMBER 6</p>
-        <p id="font-7">FONT NUMBER 7</p>
-        <p id="font-8">FONT NUMBER 8</p>
-        <p id="font-9">FONT NUMBER 9</p>
-        <p id="font-10">FONT NUMBER 10</p>
-        <p id="font-11">FONT NUMBER 11</p>
-        <p id="font-12">FONT NUMBER 12</p>
-        <p id="font-13">FONT NUMBER 13</p>
-        <p id="font-14">FONT NUMBER 14</p>
-        <p id="font-15">FONT NUMBER 15</p>
-      </div>
+    <div class='container'>
+        <div class='row justify-content-center main-div'>
+            <div class='col-md-3' id='settings-div'>
+              <img src="Images/logo.png"/>
+              <span>Name:</span>
+                <input type="text" id="name" onchange="updateName()"/>
+                
+                <div style='margin-top:10px;'>
+                  <p>Which fonts?</p>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(1, this)" />
+                      <span>1-Shadows into Light</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(2, this)" />
+                      <span>2-Luna</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(3, this)" />
+                      <span>3-Sketch Serif</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(4, this)" />
+                      <span>4-Fish Fingers</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(5, this)" />
+                      <span>5-Sophia</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(6, this)" />
+                      <span>6-Betty</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(7, this)" />
+                      <span>7-Champagne & Limosines</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(8, this)" />
+                      <span>8-Fledgling</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(9, this)" />
+                      <span>9-Lost in Wild</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(10, this)" />
+                      <span>10-Bromello</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(11, this)" />
+                      <span>11-SP Marker Font</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(12, this)" />
+                      <span>12-Nella Sue</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(13, this)" />
+                      <span>13-Bella K Don't Blink</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(14, this)" />
+                      <span>14-Euforium</span>
+                  </div>
+                  <div>
+                      <input type="checkbox" onchange="fontDisplayToggle(15, this)" />
+                      <span>15-Appleberry</span>
+                  </div>
+                </div>
+            </div>
+            <div class='col-md-4' style='text-align:center;'>
+                <p class="font-display" id="font-1">FONT NUMBER 1</p>
+                <p class="font-display" id="font-2">FONT NUMBER 2</p>
+                <p class="font-display" id="font-3">FONT NUMBER 3</p>
+                <p class="font-display" id="font-4">FONT NUMBER 4</p>
+                <p class="font-display" id="font-5">FONT NUMBER 5</p>
+                <p class="font-display" id="font-6">FONT NUMBER 6</p>
+                <p class="font-display" id="font-7">FONT NUMBER 7</p>
+                <p class="font-display" id="font-8">FONT NUMBER 8</p>
+                <p class="font-display" id="font-9">FONT NUMBER 9</p>
+                <p class="font-display" id="font-10">FONT NUMBER 10</p>
+                <p class="font-display" id="font-11">FONT NUMBER 11</p>
+                <p class="font-display" id="font-12">FONT NUMBER 12</p>
+                <p class="font-display" id="font-13">FONT NUMBER 13</p>
+                <p class="font-display" id="font-14">FONT NUMBER 14</p>
+                <p class="font-display" id="font-15">FONT NUMBER 15</p>
+              </div>
+            </div>
+        </div>
   </body>
 </html>

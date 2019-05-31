@@ -17,3 +17,13 @@ function updateName(){
     $("#font-14").text("14 - "+name);
     $("#font-15").text("15 - "+name);
 }
+
+function fontDisplayToggle(fontId, checkbox){
+    let fontDisplay = $("#font-"+fontId);
+    let isChecked = $(checkbox).is(":checked");
+
+    if(isChecked)
+        $(fontDisplay).show();
+    else
+        $(fontDisplay).hide();
+}
